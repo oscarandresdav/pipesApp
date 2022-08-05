@@ -43,4 +43,21 @@ export class NoComunesComponent {
     direccion: 'Santo Domingo, Ecuador'
   }
 
+  // Json Pipe
+  heroes = [
+    {
+      nombre: 'Superman',
+      vuela: true
+    },
+    {
+      nombre: 'Robin',
+      vuela: false
+    },
+    {
+      nombre: 'Ironman',
+      vuela: true
+    },
+    
+  ]
+
 }
