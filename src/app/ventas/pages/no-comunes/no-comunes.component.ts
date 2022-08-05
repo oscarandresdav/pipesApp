@@ -22,4 +22,18 @@ export class NoComunesComponent {
     'other': 'tenemos # clientes esperando'
   }
 
+  cambiarCliente() {
+    if (this.nombre === 'Jessica') {
+      this.nombre = 'Oscar';
+      this.genero = 'masculino'
+    } else {
+      this.nombre = 'Jessica';
+      this.genero = 'femenino'
+    }
+  }
+
+  borrarCliente() {
+    this.clientes.pop();
+  }
+
 }
