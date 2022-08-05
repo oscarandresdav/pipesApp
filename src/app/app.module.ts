@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 
 // Módulos personalizados
+import { AppRouterModule } from './app-router.module';
 import { SharedModule } from './shared/shared.module';
 
 
@@ -14,6 +15,7 @@ import { SharedModule } from './shared/shared.module';
   ],
   imports: [
     BrowserModule,
+    AppRouterModule,
     SharedModule
   ],
   providers: [],
